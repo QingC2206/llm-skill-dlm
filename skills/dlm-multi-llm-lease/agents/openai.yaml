@@ -1,0 +1,7 @@
+interface:
+  display_name: "DLM Multi-LLM Lease"
+  short_description: "Consume a user-orchestrated shared claim/lease queue across independent top-level tasks"
+  default_prompt: "Use $dlm-multi-llm-lease to create a user-orchestrated shared queue where each host-identified top-level task consumes items serially, assignment is automatic unless the user explicitly authorizes exact item IDs, and all unified closeout is deferred to a later subtask."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "DLM Task"
+  short_description: "Epic/Subtask records, obligations, inventory and close via the dlm CLI"
+  default_prompt: "Use $dlm-task to plan or continue this work with the dlm CLI: inventory the full object set for comprehensive requests, keep obligations and evidence in the ledger, checkpoint each turn and close only through dlm close."
+
+policy:
+  allow_implicit_invocation: true

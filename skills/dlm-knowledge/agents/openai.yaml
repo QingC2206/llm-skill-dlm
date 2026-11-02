@@ -1,0 +1,7 @@
+interface:
+  display_name: "DLM Knowledge"
+  short_description: "Build, sediment and audit the knowledge base"
+  default_prompt: "Use $dlm-knowledge to build, update, write back or audit the knowledge base with dlm kb tools."
+
+policy:
+  allow_implicit_invocation: true

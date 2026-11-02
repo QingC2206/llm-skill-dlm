@@ -1,0 +1,7 @@
+interface:
+  display_name: "DLM Load"
+  short_description: "Load the task brief or owner knowledge needed now"
+  default_prompt: "Use $dlm-load to load only the brief or knowledge needed to choose the next action."
+
+policy:
+  allow_implicit_invocation: true

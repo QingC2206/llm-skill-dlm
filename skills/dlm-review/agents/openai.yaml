@@ -1,0 +1,7 @@
+interface:
+  display_name: "DLM Review"
+  short_description: "Goal-oriented independent review with full-set coverage"
+  default_prompt: "Use $dlm-review to check these results against the user's goal; for complete or parity reviews inventory every item and report counts."
+
+policy:
+  allow_implicit_invocation: true
